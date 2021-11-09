@@ -73,7 +73,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter  {
 				.csrf()
 				.disable()
 				.authorizeRequests()
-				.antMatchers("/logintoken","/login","/","/verifyEmployee","/reset_password","/createPassword","/application**","/registration**","/v2/api-docs","/success","/loginSucess","/addEmployee","/addMultipartfile","/onboardedEmployees","/addClient","/onboardClient","/verifyEmployee", "/createPassword", "/reset_password", "/createDesignation",
+				.antMatchers("/logintoken","/https://hutechpayrollapp.azurewebsites.net","/login","/","/verifyEmployee","/reset_password","/createPassword","/application**","/registration**","/v2/api-docs","/success","/loginSucess","/addEmployee","/addMultipartfile","/onboardedEmployees","/addClient","/onboardClient","/verifyEmployee", "/createPassword", "/reset_password", "/createDesignation",
 						"/findEmpInfo", "/paySlip", "/createBusinessUnit", "/viewBusinessUnit", "/createDepartment",
 						"/createDesignation", "/createEmployeement", "/addOrganizationInfo", "/addProject",
 						"/viewProject", "/createRole", "/addTimesheet", "/verify", "/forgotPasswordEmail",
